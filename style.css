@@ -169,6 +169,13 @@ h2 {
     width: 45%;
     padding: 20px;
   }
+  /*CLIMA*/
+  #clima{
+    background: #380c18;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
   
   .contact-title {
     float: left;
