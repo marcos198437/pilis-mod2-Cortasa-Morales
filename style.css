@@ -26,12 +26,12 @@ a {
   font-size: 25px;
   text-transform: uppercase;
   font-weight: 400;
-  float: left;
+  float: right;
   padding-top: 16px;
 }
 #navbar ul {
   list-style: none;
-  float: right;
+  float: left;
   text-transform: uppercase;
 }
 
@@ -45,7 +45,7 @@ a {
   text-align: center;
 }
 #navbar ul li a:hover {
-  background: #a0fa93;
+  background: #5a6f32; /*ver paleta de color*/
 }
 
 
@@ -102,9 +102,9 @@ a {
 }
 
 
-header{
+/*header{
     height: 100vh;
-}
+}*/
 .container {
     margin: auto;
     max-width: 1300px;
@@ -121,13 +121,13 @@ header{
     width: 50%;
   }
   .about-img img {
-    width: 80%;
+    width: 90%;
   }
   
   .about-title {
     float: left;
     width: 50%;
-    padding-top: 340px;
+    padding-top: 180px;
   }
   
   .about-description {
@@ -135,10 +135,10 @@ header{
     width: 55%;
   }
   
-  /*.about-description .large {  
+  .about-description .large {  
     padding-bottom: 10px;
     font-size: 1.25rem;
-  }*/
+  }
   /* General */
   html,
   body{
@@ -165,15 +165,15 @@ h2 {
   }
   
   .contact-form {
-    float: left;
+    float: right;
     width: 45%;
     padding: 20px;
   }
   
   .contact-title {
-    float: right;
+    float: left;
     width: 55%;
-    padding-top: 160px;
+    padding-top: 180px;
     text-align: center;
   }
   form .form-group {

@@ -14,32 +14,34 @@
   <header id="mainheader">
     <nav id="navbar">
       <div class="container">
-        <h1 class="logo"><a href="index.html">Evento Vinicola <span class="secondary">EV</span> </a></h1>
         <ul>
           <li><a href="#about">Quienes somos</a></li>
           <li><a href="#evento">Evento</a></li>
           <li><a href="#contact">Registro</a></li>
 
         </ul>
+        <h1 class="logo"><a href="index.html">Evento Vinicola EV </a></h1>
       </div>
     </nav>
-    <div id="showcase">
-      <div class="container">
-        <div class="showcase-img">
-          <!-- <img src="../img/showcase.png" alt="">    -->
-          <img src="assets/imag1.PNG" alt="showcase"/>
-        </div>
-  
-        <div class="showcase-text">
-          <h1><span class="title-one">Evento</span><br>
-            <span class="title-two">Vinicola</span><br>
-            </h1>
-          <p class="large">Juntos potenciamos el comercio Jujeño</p>
-        </div>
-      </div>
-    </div>
+    
   </header>
   <main>
+    <section class="home">
+      <div id="showcase">
+        <div class="container">
+          <div class="showcase-img">
+            <img src="assets/imag1.PNG" alt="showcase"/>
+          </div>
+    
+          <div class="showcase-text">
+            <h1><span class="title-one">Evento</span><br>
+              <span class="title-two">Vinicola</span><br>
+              </h1>
+            <p class="large">Juntos potenciamos el comercio Jujeño</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section  id="evento">
       <div class="container">
@@ -75,6 +77,7 @@
         <div class="contact-form">        
           <form id="formulario"> 
             <div class="form-group">
+              <h2>Fomulario de Contacto</h2>
               <label for="comercio">Comercio</label>
               <input id="comercio" class="form-control" type="text">
             </div>
@@ -96,10 +99,24 @@
         </div>
   
         <div class="contact-title">
-          <h2>Fomulario de Contacto</h2>
+           <h4>Sumate al evento para </h4><br><h4>
+            potenciar el comercio local.</h4><br>
+            <h4>Luego te contactaremos</h4> 
         </div>
         
       </div>
+    </section>
+    <section class="clima">
+      <button type="button" onclick="consultarAPIClima()">Consultar Clima </button>
+      <div id="container">
+        <div id="location"></div>
+        <div id="description"></div>
+        <div id="humidity"></div>
+        <div id="pressure"></div>
+        <div id="temperature"></div>
+        <div id="date"></div>
+      </div>
+      
     </section>
   </main>
   
