@@ -170,7 +170,7 @@ h2 {
     padding: 20px;
   }
   /*CLIMA*/
-  #clima{
+  .clima{
     background: #380c18;
    display: flex;
    justify-content: center;
