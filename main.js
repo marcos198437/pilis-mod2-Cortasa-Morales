@@ -53,7 +53,7 @@ function onClick (event) {
      const lon =-65.33130863194877;//'-65.2994789';
      const apiKey='cde7752e19e499353694a0182f226be2';
      //const url= `api.openweathermap.org/data/2.5/weather?q=Jujuy,AR&appid=${apiKey}`;
-     const url= `http://api.openweathermap.org/data/2.5/weather?units=metric&lat=${lat}&lon=${lon}&appid=c7eb81a7e5dabe1d37507274a340061b`;
+     const url= `https://api.openweathermap.org/data/2.5/weather?units=metric&lat=${lat}&lon=${lon}&appid=c7eb81a7e5dabe1d37507274a340061b`;
      console.log(url);
       fetch(url).then(response =>response.json())
       .then(data=> setWeatherData(data))
