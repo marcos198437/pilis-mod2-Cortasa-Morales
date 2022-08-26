@@ -69,7 +69,6 @@ function onClick (event) {
     console.log(data);
     const weatherData = {
         location: data.name,
-        description: data.weather[0].main,
         humidity: data.main.humidity,
         pressure: data.main.pressure,
         temperature: data.main.temp,
